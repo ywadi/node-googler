@@ -1,0 +1,142 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /root/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/root/tmp/npm-3628-xUhn1p93/1384447961589-0.8151920475065708/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /root/tmp/npm-3628-xUhn1p93/1384447961589-0.8151920475065708/tmp.tgz
+12 verbose folder .
+13 info prepublish googler@0.5.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /root/.npm/1f1177db-tar.lock
+16 silly lockFile 6f1df0f6-61589-0-8151920475065708-tmp-tgz tar:///root/tmp/npm-3628-xUhn1p93/1384447961589-0.8151920475065708/tmp.tgz
+17 verbose lock tar:///root/tmp/npm-3628-xUhn1p93/1384447961589-0.8151920475065708/tmp.tgz /root/.npm/6f1df0f6-61589-0-8151920475065708-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 6f1df0f6-61589-0-8151920475065708-tmp-tgz tar:///root/tmp/npm-3628-xUhn1p93/1384447961589-0.8151920475065708/tmp.tgz
+21 silly lockFile 6f1df0f6-61589-0-8151920475065708-tmp-tgz tar:///root/tmp/npm-3628-xUhn1p93/1384447961589-0.8151920475065708/tmp.tgz
+22 verbose tar unpack /root/tmp/npm-3628-xUhn1p93/1384447961589-0.8151920475065708/tmp.tgz
+23 silly lockFile b90d7d4c-61589-0-8151920475065708-package tar:///root/tmp/npm-3628-xUhn1p93/1384447961589-0.8151920475065708/package
+24 verbose lock tar:///root/tmp/npm-3628-xUhn1p93/1384447961589-0.8151920475065708/package /root/.npm/b90d7d4c-61589-0-8151920475065708-package.lock
+25 silly lockFile 6f1df0f6-61589-0-8151920475065708-tmp-tgz tar:///root/tmp/npm-3628-xUhn1p93/1384447961589-0.8151920475065708/tmp.tgz
+26 verbose lock tar:///root/tmp/npm-3628-xUhn1p93/1384447961589-0.8151920475065708/tmp.tgz /root/.npm/6f1df0f6-61589-0-8151920475065708-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry app.js
+31 silly gunzTarPerm extractEntry googler.png
+32 silly lockFile b90d7d4c-61589-0-8151920475065708-package tar:///root/tmp/npm-3628-xUhn1p93/1384447961589-0.8151920475065708/package
+33 silly lockFile b90d7d4c-61589-0-8151920475065708-package tar:///root/tmp/npm-3628-xUhn1p93/1384447961589-0.8151920475065708/package
+34 silly lockFile 6f1df0f6-61589-0-8151920475065708-tmp-tgz tar:///root/tmp/npm-3628-xUhn1p93/1384447961589-0.8151920475065708/tmp.tgz
+35 silly lockFile 6f1df0f6-61589-0-8151920475065708-tmp-tgz tar:///root/tmp/npm-3628-xUhn1p93/1384447961589-0.8151920475065708/tmp.tgz
+36 verbose tar pack [ '/root/.npm/googler/0.5.0/package.tgz',
+36 verbose tar pack   '/root/tmp/npm-3628-xUhn1p93/1384447961589-0.8151920475065708/package' ]
+37 verbose tarball /root/.npm/googler/0.5.0/package.tgz
+38 verbose folder /root/tmp/npm-3628-xUhn1p93/1384447961589-0.8151920475065708/package
+39 silly lockFile b90d7d4c-61589-0-8151920475065708-package tar:///root/tmp/npm-3628-xUhn1p93/1384447961589-0.8151920475065708/package
+40 verbose lock tar:///root/tmp/npm-3628-xUhn1p93/1384447961589-0.8151920475065708/package /root/.npm/b90d7d4c-61589-0-8151920475065708-package.lock
+41 silly lockFile 4631e2f3-ot-npm-googler-0-5-0-package-tgz tar:///root/.npm/googler/0.5.0/package.tgz
+42 verbose lock tar:///root/.npm/googler/0.5.0/package.tgz /root/.npm/4631e2f3-ot-npm-googler-0-5-0-package-tgz.lock
+43 silly lockFile b90d7d4c-61589-0-8151920475065708-package tar:///root/tmp/npm-3628-xUhn1p93/1384447961589-0.8151920475065708/package
+44 silly lockFile b90d7d4c-61589-0-8151920475065708-package tar:///root/tmp/npm-3628-xUhn1p93/1384447961589-0.8151920475065708/package
+45 silly lockFile 4631e2f3-ot-npm-googler-0-5-0-package-tgz tar:///root/.npm/googler/0.5.0/package.tgz
+46 silly lockFile 4631e2f3-ot-npm-googler-0-5-0-package-tgz tar:///root/.npm/googler/0.5.0/package.tgz
+47 silly lockFile 2cd24efc-root-npm-googler-0-5-0-package /root/.npm/googler/0.5.0/package
+48 verbose lock /root/.npm/googler/0.5.0/package /root/.npm/2cd24efc-root-npm-googler-0-5-0-package.lock
+49 silly lockFile 2cd24efc-root-npm-googler-0-5-0-package /root/.npm/googler/0.5.0/package
+50 silly lockFile 2cd24efc-root-npm-googler-0-5-0-package /root/.npm/googler/0.5.0/package
+51 verbose tar unpack /root/.npm/googler/0.5.0/package.tgz
+52 silly lockFile a9be23d4-r-root-npm-googler-0-5-0-package tar:///root/.npm/googler/0.5.0/package
+53 verbose lock tar:///root/.npm/googler/0.5.0/package /root/.npm/a9be23d4-r-root-npm-googler-0-5-0-package.lock
+54 silly lockFile 4631e2f3-ot-npm-googler-0-5-0-package-tgz tar:///root/.npm/googler/0.5.0/package.tgz
+55 verbose lock tar:///root/.npm/googler/0.5.0/package.tgz /root/.npm/4631e2f3-ot-npm-googler-0-5-0-package-tgz.lock
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 silly gunzTarPerm extractEntry package.json
+58 silly gunzTarPerm extractEntry README.md
+59 silly gunzTarPerm extractEntry app.js
+60 silly gunzTarPerm extractEntry googler.png
+61 silly lockFile a9be23d4-r-root-npm-googler-0-5-0-package tar:///root/.npm/googler/0.5.0/package
+62 silly lockFile a9be23d4-r-root-npm-googler-0-5-0-package tar:///root/.npm/googler/0.5.0/package
+63 silly lockFile 4631e2f3-ot-npm-googler-0-5-0-package-tgz tar:///root/.npm/googler/0.5.0/package.tgz
+64 silly lockFile 4631e2f3-ot-npm-googler-0-5-0-package-tgz tar:///root/.npm/googler/0.5.0/package.tgz
+65 verbose chmod /root/.npm/googler/0.5.0/package.tgz 644
+66 verbose chown /root/.npm/googler/0.5.0/package.tgz [ 0, 0 ]
+67 silly lockFile 3a52ce78- .
+68 silly lockFile 3a52ce78- .
+69 silly publish { name: 'googler',
+69 silly publish   version: '0.5.0',
+69 silly publish   description: 'Search google from the command line ',
+69 silly publish   main: 'app.js',
+69 silly publish   dependencies:
+69 silly publish    { asciimo: '~0.3.1',
+69 silly publish      colors: '~0.6.2',
+69 silly publish      google: '~0.3.2',
+69 silly publish      open: '~0.0.4' },
+69 silly publish   bin: { google: 'app.js' },
+69 silly publish   devDependencies: {},
+69 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+69 silly publish   repository: { type: 'git', url: 'https://github.com/ywadi/googler.git' },
+69 silly publish   keywords: [ 'google', 'search', 'commandline', 'command-line', 'cli' ],
+69 silly publish   author: { name: 'Yousef Wadi' },
+69 silly publish   license: 'MIT',
+69 silly publish   bugs: { url: 'https://github.com/ywadi/googler/issues' },
+69 silly publish   homepage: 'https://github.com/ywadi/googler',
+69 silly publish   readme: 'Googler 0.05 \n=======\n\n\n![alt tag](https://raw.github.com/ywadi/googler/master/googler.png)\nJust a handy command line tool to Search Google from the command line rather than leaving to the browser, opening google, searching then getting to the result. Just type google in the command line and you get to search within the command line fast and then open the result you find useful. \n\n\nInstallation \n------\n\n    $ git clone https://github.com/ywadi/googler.git\n    $ npm install \n    $ npm link\n\nEnjoy...\n',
+69 silly publish   readmeFilename: 'README.md',
+69 silly publish   _id: 'googler@0.5.0',
+69 silly publish   dist: { shasum: 'e511f612ecff98690b46dc9c5b3b9d6724f263a0' },
+69 silly publish   _from: '.' }
+70 verbose url raw googler
+71 verbose url resolving [ 'https://registry.npmjs.org/', './googler' ]
+72 verbose url resolved https://registry.npmjs.org/googler
+73 info trying registry request attempt 1 at 18:52:42
+74 http PUT https://registry.npmjs.org/googler
+75 http 409 https://registry.npmjs.org/googler
+76 verbose url raw googler
+77 verbose url resolving [ 'https://registry.npmjs.org/', './googler' ]
+78 verbose url resolved https://registry.npmjs.org/googler
+79 info trying registry request attempt 1 at 18:52:50
+80 http GET https://registry.npmjs.org/googler
+81 http 200 https://registry.npmjs.org/googler
+82 verbose uploading [ 'googler/-/googler-0.5.0.tgz/-rev/5-09c1e96869ddbe7f5b859b27649899fb',
+82 verbose uploading   '/root/.npm/googler/0.5.0/package.tgz' ]
+83 verbose url raw googler/-/googler-0.5.0.tgz/-rev/5-09c1e96869ddbe7f5b859b27649899fb
+84 verbose url resolving [ 'https://registry.npmjs.org/',
+84 verbose url resolving   './googler/-/googler-0.5.0.tgz/-rev/5-09c1e96869ddbe7f5b859b27649899fb' ]
+85 verbose url resolved https://registry.npmjs.org/googler/-/googler-0.5.0.tgz/-rev/5-09c1e96869ddbe7f5b859b27649899fb
+86 info trying registry request attempt 1 at 18:52:54
+87 http PUT https://registry.npmjs.org/googler/-/googler-0.5.0.tgz/-rev/5-09c1e96869ddbe7f5b859b27649899fb
+88 http 403 https://registry.npmjs.org/googler/-/googler-0.5.0.tgz/-rev/5-09c1e96869ddbe7f5b859b27649899fb
+89 error Error: write EPIPE
+89 error     at errnoException (net.js:901:11)
+89 error     at Object.afterWrite (net.js:718:19)
+90 error If you need help, you may report this log at:
+90 error     <http://github.com/isaacs/npm/issues>
+90 error or email it to:
+90 error     <npm-@googlegroups.com>
+91 error System Linux 3.8.0-30-generic
+92 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+93 error cwd /var/googler
+94 error node -v v0.10.22
+95 error npm -v 1.3.14
+96 error syscall write
+97 error code EPIPE
+98 error errno EPIPE
+99 verbose exit [ 1, true ]

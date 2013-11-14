@@ -1,7 +1,8 @@
-#!/usr/local/bin/node
+#!/usr/bin/env node
 var google = require('google');
 var readline = require('readline');
 var open = require('open');
+var readability = require('node-readability');
 
 google.resultsPerPage = 5;
 
@@ -63,6 +64,10 @@ function doSearch(searchString)
 			else if(!isNaN(+answer2))
 			{
 				open(selectArray[answer2]);
+
+				/*readability.read(selectArray[answer2], function(err, article) {
+					console.log(article.getContent());
+				});*/
 			}
 			else
 			{
