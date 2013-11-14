@@ -12,5 +12,7 @@ Installation
     $ git clone https://github.com/ywadi/googler.git
     $ npm install 
     $ npm link
+    OR Simply
+    $ npm install node-googler -g
 
 Enjoy...
