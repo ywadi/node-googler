@@ -1,6 +1,6 @@
 {
   "name": "node-googler",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Search google from the command line ",
   "main": "app.js",
   "dependencies": {
