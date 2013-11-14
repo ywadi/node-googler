@@ -9,4 +9,8 @@ Just a handy command line tool to Search Google from the command line rather tha
 Installation 
 ------
 
-    $ npm install googler -g
+    $ git clone https://github.com/ywadi/googler.git
+    $ npm install 
+    $ npm link
+
+Enjoy...

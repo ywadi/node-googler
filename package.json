@@ -9,8 +9,8 @@
     "google": "~0.3.2",
     "open": "~0.0.4"
   },
-  "bin":{
-    "google":"app.js"	
+  "bin": {
+    "google": "app.js"
   },
   "devDependencies": {},
   "scripts": {
@@ -31,5 +31,6 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ywadi/googler/issues"
-  }
+  },
+  "homepage": "https://github.com/ywadi/googler"
 }
