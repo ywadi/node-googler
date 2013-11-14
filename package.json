@@ -1,0 +1,35 @@
+{
+  "name": "googler",
+  "version": "0.5.0",
+  "description": "Search google from the command line ",
+  "main": "app.js",
+  "dependencies": {
+    "asciimo": "~0.3.1",
+    "colors": "~0.6.2",
+    "google": "~0.3.2",
+    "open": "~0.0.4"
+  },
+  "bin":{
+    "google":"app.js"	
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ywadi/googler.git"
+  },
+  "keywords": [
+    "google",
+    "search",
+    "commandline",
+    "command-line",
+    "cli"
+  ],
+  "author": "Yousef Wadi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ywadi/googler/issues"
+  }
+}
