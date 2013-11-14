@@ -1,5 +1,5 @@
 {
-  "name": "googler",
+  "name": "node-googler",
   "version": "0.5.0",
   "description": "Search google from the command line ",
   "main": "app.js",
@@ -28,7 +28,7 @@
     "cli"
   ],
   "author": "Yousef Wadi",
-  "license": "MIT",
+  "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/ywadi/googler/issues"
   },
