@@ -20,10 +20,22 @@ var rl = readline.createInterface({
         output: process.stdout
 });
 
+var args = process.argv.slice(2).join(' ');
+
 asciimo.write(welcome,font,function(art){
-    
+
     sys.puts(art.rainbow);
 
+    if (args.length) {
+        doSearch(args);
+    } else {
+        prompt();
+    }
+
+});
+
+
+function prompt () {
 	rl.question("What are you searching for?\n".yellow, function(answer) {
 		 //Search google
 		selectArray = [];
@@ -32,7 +44,7 @@ asciimo.write(welcome,font,function(art){
 
 	});
 	rl.close
-});
+}
 
 function doSearch(searchString)
 {
