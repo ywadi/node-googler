@@ -15,36 +15,29 @@ var welcome = "Google";
 
 var selectArray = [];
 
+var args = process.argv.slice(2).join(' ');
+
 var rl = readline.createInterface({
 	input: process.stdin,
         output: process.stdout
 });
 
-var args = process.argv.slice(2).join(' ');
+if (args.length) {
+    doSearch(args);
+    return;
+}
 
 asciimo.write(welcome,font,function(art){
-
+    
     sys.puts(art.rainbow);
 
-    if (args.length) {
-        doSearch(args);
-    } else {
-        prompt();
-    }
-
-});
-
-
-function prompt () {
 	rl.question("What are you searching for?\n".yellow, function(answer) {
 		 //Search google
 		selectArray = [];
 		console.log("Searching Google....".rainbow);		
 		doSearch(answer);
-
 	});
-	rl.close
-}
+});
 
 function doSearch(searchString)
 {
@@ -65,7 +58,7 @@ function doSearch(searchString)
 				console.log(links[i].description.toString() + "\n");
 
 			selectArray.push(links[i].link);
-		};
+		}
 
 		rl.question('Number to select link, n for next page, Any other text to search google\n>', function(answer2) {
 			if(answer2 == "n" || answer2 == "N")
